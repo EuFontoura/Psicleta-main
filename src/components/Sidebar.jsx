@@ -1,6 +1,8 @@
 // Sidebar.js
 import React from 'react';
 
+import logo from '../components/assets/symbol.png'
+
 const Sidebar = ({ isOpen, closeSidebar }) => {
   return (
     <div className={`fixed top-0 left-0 h-full bg-navColor text-white z-50 transition-all duration-300 ${isOpen ? 'w-32 opacity-100' : 'w-0 opacity-0'}`}>
@@ -11,7 +13,7 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
       <a href=""><p className='mt-6'>Contato</p></a>
       </div>
       <div className='m-auto flex justify-center items-end'>
-      <img src="https://placehold.co/50x50" alt="" className='m-right rounded-2xl absolute bottom-0 mb-4 left-0 right-0 mx-auto' />
+      <img src={ logo } alt="" className='h-12 absolute bottom-0 mb-4 left-0 right-0 mx-auto'/>
       </div>
     </div>
   );

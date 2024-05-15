@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import NavbarLinks from "./components/NavbarLinks"
 import Card from "./components/Card"
 import About from "./components/About"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       < Home />
       < Card />
       < About />
-      <h1>hello</h1>
+      < Contact />
     </div>
   )
 }

@@ -3,7 +3,7 @@ import ContactButton from './button/ContactButton'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='mx-10 md:mx-20' id='Contact'>
       < ContactButton />
     </div>
   )

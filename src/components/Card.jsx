@@ -2,7 +2,7 @@ import React from 'react'
 
 const card = () => {
   return (
-  <div>
+  <div id='Card'>
     <h1 className='bg-navColor text-textColor border-y-2 border-black/40 my-6 md:my-10 h-16 items-center justify-center flex text-2xl'>Como Podemos Ajudar</h1>
     <div className='mx-10 md:mx-20 grid grid-cols-1 md:grid-cols-3 gap-8 tracking-wider text-textColor text-justify'>
       <div className='bg-navColor rounded-lg border-2 border-black/40'>

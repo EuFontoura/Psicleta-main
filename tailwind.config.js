@@ -11,7 +11,7 @@ export default {
         navColor: '#669167',
         textColor: '#E5E5E5',
         btnColor: '#669167',
-        btnHover: '#4C5D4E'
+        btnHover: '#4b6f4f'
       }
     },
   },

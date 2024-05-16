@@ -4,6 +4,7 @@ import NavbarLinks from "./components/NavbarLinks"
 import Card from "./components/Card"
 import About from "./components/About"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       < Card />
       < About />
       < Contact />
+      < Footer />
     </div>
   )
 }

@@ -20,17 +20,17 @@ const card = () => {
           <h1 className='justify-center m-auto flex mt-4 text-2xl'>Title</h1>
           <p className='my-4 mx-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea unde libero facilis dolorem sed, tenetur, aliquam odio in aut temporibus alias mollitia ratione animi asperiores tempore aspernatur, numquam maxime!</p>
         </div>
-      <div className='bg-navColor rounded-lg border-2 border-black/40'>
+      <div className='bg-navColor rounded-lg border-2 border-black/40 hidden md:block'>
       <img src="https://placehold.co/100x100" alt="" className='rounded-full flex m-auto mt-4'/>
         <h1 className='justify-center m-auto flex mt-4 text-2xl'>Title</h1>
         <p className='my-4 mx-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea unde libero facilis dolorem sed, tenetur, aliquam odio in aut temporibus alias mollitia ratione animi asperiores tempore aspernatur, numquam maxime!</p>
       </div>
-      <div className='bg-navColor rounded-lg border-2 border-black/40'>
+      <div className='bg-navColor rounded-lg border-2 border-black/40 hidden md:block'>
       <img src="https://placehold.co/100x100" alt="" className='rounded-full flex m-auto mt-4'/>
         <h1 className='justify-center m-auto flex mt-4 text-2xl'>Title</h1>
         <p className='my-4 mx-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea unde libero facilis dolorem sed, tenetur, aliquam odio in aut temporibus alias mollitia ratione animi asperiores tempore aspernatur, numquam maxime!</p>
       </div>
-        <div className='bg-navColor rounded-lg border-2 border-black/40'>
+        <div className='bg-navColor rounded-lg border-2 border-black/40 hidden md:block'>
         <img src="https://placehold.co/100x100" alt="" className='rounded-full flex m-auto mt-4'/>
           <h1 className='justify-center m-auto flex mt-4 text-2xl'>Title</h1>
           <p className='my-4 mx-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea unde libero facilis dolorem sed, tenetur, aliquam odio in aut temporibus alias mollitia ratione animi asperiores tempore aspernatur, numquam maxime!</p>

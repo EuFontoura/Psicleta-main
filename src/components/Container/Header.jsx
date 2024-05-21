@@ -1,10 +1,10 @@
 import React from 'react'
-import ContactButton from './button/ContactButton'
+import ContactButton from '../Button/ContactButton'
 
 
-const Home = () => {
+const Header = () => {
   return (
-    <div className='mx-10 md:mx-20 tracking-wider text-justify' id='Home'>
+    <div className='mx-10 md:mx-20 tracking-wider text-justify' id='Header'>
       <img src="https://placehold.co/1080x250" alt="" className='m-auto my-8 hidden md:flex' />
       <p className='text-3xl justify-center my-8 md:m-auto flex text-textColor'>Lorem Ipsum Dolor</p>
       <p className='text-white mt-6'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos soluta qui officia ipsa eveniet iste quod cumque veritatis consectetur sed? Voluptates est laudantium temporibus expedita repellendus eaque dolore eveniet officia!
@@ -15,4 +15,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Header

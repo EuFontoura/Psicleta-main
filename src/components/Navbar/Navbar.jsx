@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import Sidebar from './Sidebar';
 
-import logo from '../components/assets/symbol.png';
-import title from '../components/assets/title.png';
+import logo from '../assets/symbol.png';
+import title from '../assets/title.png';
 
 const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);

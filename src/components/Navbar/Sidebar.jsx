@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../components/assets/symbol.png';
-import SidebarContactButton from './button/SidebarContactButton';
+import logo from '../assets/symbol.png';
+import SidebarContactButton from '../Button/SidebarContactButton';
 
 const Sidebar = ({ isOpen, closeSidebar }) => {
   return (

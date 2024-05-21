@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactButton from './button/ContactButton'
+import ContactButton from '../Button/ContactButton'
 
 const Contact = () => {
   return (

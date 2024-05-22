@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactButton from '../Button/ContactButton'
+import ContactButton from '../button/ContactButton'
 
 
 const Header = () => {

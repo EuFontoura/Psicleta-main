@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from '../../components/FormContent/Navbar/Navbar'
+import BodyForm from '../../components/FormContent/Container/BodyForm'
+
 
 const Form = () => {
   return (
-    <div>Formulario</div>
+    <>
+    < Navbar />
+    < BodyForm />
+    </>
   )
 }
 

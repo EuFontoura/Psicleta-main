@@ -7,7 +7,7 @@ function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={ < Home /> }></Route>
-                <Route path="/form" element={ < Form /> }></Route>
+                <Route path="/formulário" element={ < Form /> }></Route>
             </Routes>
         </BrowserRouter>
     )

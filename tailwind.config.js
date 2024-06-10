@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        customshadow: "1px 1px 10px black",
+        btnshadow: "3px 3px 0 0 #42271E",
+      },
       colors: {
         mainColor: '#5F7C60',
         navColor: '#669167',
